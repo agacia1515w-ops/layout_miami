@@ -1,6 +1,6 @@
 .header{
     display: flex;
-    background-image: url(../..header.jpg);
+    background-image: url(../header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -8,4 +8,6 @@
     justify-content: flex-end;
     padding: 20px 40px;
     box-sizing: border-box;
+    align-items: center;
+ 
 }
