@@ -2,14 +2,38 @@
 
     &__photo{
 
+       display: block;
+       margin: 0 auto;
+     
     }
     &__name{
+        font-family:"Inter", sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0px;
+        color:#292929 ;
+        text-align: center;
 
     }
     &__role{
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0px;
+
 
     }
     &__price{
-        
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0px;
+
     }
 }
