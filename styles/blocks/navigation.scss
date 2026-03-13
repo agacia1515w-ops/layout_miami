@@ -1,7 +1,15 @@
-.navigation{
+.navigation {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
     align-items: center;
-    
+
+
+    &__right {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+  
+    }
+
 }
