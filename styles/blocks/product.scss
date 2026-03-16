@@ -1,4 +1,4 @@
-.Bose{
+.product{
 
     &__photo{
 
@@ -9,7 +9,7 @@
     &__name{
         font-family:"Inter", sans-serif;
         font-weight: 700;
-        font-style: Bold;
+        font-style: normal;
         font-size: 16px;
         line-height: 140%;
         letter-spacing: 0px;
@@ -24,18 +24,20 @@
         font-size: 16px;
         line-height: 140%;
         letter-spacing: 0px;
-         text-align: center;
+        text-align: center;
+        color: #292929;
 
 
     }
-    &__price{
+     &__price{
         font-family: "Inter", sans-serif;
         font-weight: 700;
-        font-style: Bold;
+        font-style: normal;
         font-size: 16px;
         line-height: 140%;
         letter-spacing: 0px;
-         text-align: center;
+        text-align: center;
+        color: #292929;
 
     }
 }
