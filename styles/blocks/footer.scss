@@ -1,6 +1,16 @@
-.footer{
-    width: 322px;
-    height: 200px;
-    left: -1px;
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding: 0;
+  overflow: hidden;
 
+  &__image {
+    height: 200px;
+    width: 322px;
+    object-fit: cover;
+    
+    box-sizing: border-box;
+  }
 }

@@ -1,0 +1,31 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 64px;
+
+  &__title {
+    margin-bottom: 48px;
+    display: block;
+    width: 280px;
+  
+ }
+ 
+  &__article {
+    margin-bottom: 40px;
+  }
+
+  &__product {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__button {
+    display: block;
+    margin: 0 auto 48px;
+    width: 280px;
+    margin-left: 20px;
+    text-align: center;
+  }
+}
+

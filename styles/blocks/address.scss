@@ -1,25 +1,27 @@
-.address{
+.address {
+  
+  margin-bottom: 96px;
 
-    &__label{
-        font-family: Inter;
-        font-weight: 400;
-        font-style: Regular;
-        font-size: 14px;
-        line-height: 140%;
-        letter-spacing: 0px;
-        color: #9FADC2;
-
-
-    }
-    &__content{
-        font-family: Inter;
-        font-weight: 400;
-        font-style: Regular;
-        font-size: 16px;
-        line-height: 140%;
-        letter-spacing: 0px;
-        color: #3E3E3E;
-
-
-    }
+  &__label {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0;
+    color: #9fadc2;
+    margin-bottom: 8px;
+    margin-left: 20px;
+  }
+  &__content {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0;
+    color: #3e3e3e;
+    margin-bottom: 24px;
+    margin-left: 20px;
+  }
 }

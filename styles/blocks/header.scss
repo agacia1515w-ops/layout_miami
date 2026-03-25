@@ -1,15 +1,16 @@
-.header{
-    display: flex;
-    background-image: url(../header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px 40px;
-    box-sizing: border-box;
-    align-items: center;
-   
- 
- 
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 320px;
+  height: 568px;
+  padding: 20px;
+  box-sizing: border-box;
+  padding-top: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
 }

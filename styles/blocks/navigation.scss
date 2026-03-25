@@ -1,11 +1,31 @@
 .navigation {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 28px;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+
+
+
+     &__logo {
+      display: block;
     
+     
+     
+   }
+   &__right{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+   }
 
+   &__phone{
+   display: block; 
+   align-items: flex-end;
+  }
 
-  
-
+  &__burger{
+    display: block; 
+    
+}
 }
