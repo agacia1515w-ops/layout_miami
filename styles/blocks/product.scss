@@ -1,21 +1,20 @@
 .product {
-  padding-left: 20px;
- 
+  padding-left: 0;           // wycentrowanie przez auto margin
   display: block;
+  max-width: 280px;          // ograniczenie dla desktopu
+  margin: 0 auto;            // wycentrowanie całego produktu
 
   &__photo {
     display: block;
-    width: 280px;
-    height: 280px;
+    width: 100%;             // elastyczna szerokość
+    max-width: 280px;        // ograniczenie dla desktopu
+    aspect-ratio: 1 / 1;     // kwadratowe zdjęcie
     object-fit: cover;
-    padding-left: 20px;
-    padding-right: 20px;
     margin-bottom: 16px;
   }
 
   &__name {
     font-weight: 700;
-
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0;
@@ -23,9 +22,9 @@
     text-align: left;
     margin-bottom: 8px;
   }
+
   &__role {
     font-weight: 400;
-
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0;
@@ -33,9 +32,9 @@
     color: #292929;
     margin-bottom: 12px;
   }
+
   &__price {
     font-weight: 700;
-
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0;
@@ -44,3 +43,4 @@
     margin-bottom: 10px;
   }
 }
+

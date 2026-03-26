@@ -7,10 +7,12 @@
   &__title {
     margin-bottom: 48px;
     display: block;
-    width: 280px;
-  
- }
- 
+    width: 90%;          // elastyczna szerokość
+    max-width: 280px;    // ograniczenie dla dużych ekranów
+    margin-left: auto;   // wyśrodkowanie
+    margin-right: auto;
+  }
+
   &__article {
     margin-bottom: 40px;
   }
@@ -20,11 +22,12 @@
     display: flex;
     flex-direction: column;
   }
+
   &__button {
     display: block;
-    margin: 0 auto 48px;
-    width: 280px;
-    margin-left: 20px;
+    width: 90%;           // elastyczna szerokość
+    max-width: 280px;
+    margin: 0 auto 48px;  // wyśrodkowanie
     text-align: center;
   }
 }

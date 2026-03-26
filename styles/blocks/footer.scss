@@ -1,16 +1,17 @@
 .footer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;  // wycentrowanie obrazka
   align-items: flex-end;
   box-sizing: border-box;
   padding: 0;
   overflow: hidden;
 
   &__image {
-    height: 200px;
-    width: 322px;
+    width: 100%;          // elastyczna szerokość
+    max-width: 322px;     // ograniczenie dla desktopu
+    height: auto;         // wysokość dopasowuje się proporcjonalnie
     object-fit: cover;
-    
     box-sizing: border-box;
   }
 }
+

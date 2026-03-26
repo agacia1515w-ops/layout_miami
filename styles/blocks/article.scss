@@ -7,13 +7,20 @@
     line-height: 140%;
     letter-spacing: 0;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: auto;   // wycentrowanie
+    margin-right: auto;
+    max-width: 95%;      // elastyczna szerokość
   }
 
   &__pictures {
     margin-bottom: 16px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;   // wycentrowanie
+    margin-right: auto;
+    max-width: 95%;      // elastyczna szerokość
+    display: flex;
+    flex-wrap: wrap;     // obrazy przechodzą w nowy wiersz na małym ekranie
+    gap: 8px;            // odstęp między obrazami
     object-fit: cover;
   }
 }
+

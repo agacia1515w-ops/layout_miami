@@ -1,10 +1,14 @@
 .links {
   &__list {
-    padding-top: 50px;
+    padding-top: 60px;
+    max-width: 300px;   
+ 
   }
+
   &__item {
-    margin-bottom: 24px;
+    margin-bottom: 32px;
   }
+
   &__link {
     font-family: Inter, sans-serif;
     font-weight: 700;
@@ -16,11 +20,24 @@
     text-decoration: none;
     color: #292929;
     border-bottom: 1px solid transparent;
-    padding-bottom: 8px;
+   
     display: inline-block;
+  }
 
-    &:hover {
-      border-bottom: 1px solid #292929;
-    }
+  &__call-link {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #292929;
+    display: inline-block;
+     position: relative;
+
+
   }
 }
+
+
+

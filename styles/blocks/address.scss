@@ -1,5 +1,4 @@
 .address {
-  
   margin-bottom: 96px;
 
   &__label {
@@ -12,7 +11,11 @@
     color: #9fadc2;
     margin-bottom: 8px;
     margin-left: 20px;
+    max-width: 95%;       // elastyczna szerokość
+    margin-right: auto;
+    margin-left: auto;     // wycentrowanie dla mobile
   }
+
   &__content {
     font-family: Inter, sans-serif;
     font-weight: 400;
@@ -23,5 +26,8 @@
     color: #3e3e3e;
     margin-bottom: 24px;
     margin-left: 20px;
+    max-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
   }
 }

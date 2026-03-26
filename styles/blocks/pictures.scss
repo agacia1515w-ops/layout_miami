@@ -1,15 +1,15 @@
 .pictures {
   display: grid;
-  grid-template-columns: repeat(2, 130px);
-  gap: 20px;
-  justify-self: start;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); // elastyczne kolumny
+  gap: 16px;
+  justify-content: center; // wycentrowanie całej siatki
 
   &__item {
-    max-width: 130px;
-    height: 130px;
+    width: 100%;
+    max-width: 130px;    // ograniczenie dla desktopu
+    aspect-ratio: 1 / 1; // kwadratowe obrazki
     object-fit: cover;
     box-sizing: border-box;
-  
-
   }
 }
+

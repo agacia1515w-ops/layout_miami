@@ -1,31 +1,27 @@
 .navigation {
   display: flex;
+  justify-content: space-between; 
   align-items: center;
+  width: 100%;
   box-sizing: border-box;
-  justify-content: space-between;
+ 
 
 
-
-     &__logo {
-      display: block;
-    
-     
-     
-   }
-   &__right{
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    
-   }
-
-   &__phone{
-   display: block; 
-   align-items: flex-end;
+  &__logo {
+    display: block;
   }
 
-  &__burger{
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 24px;          // odstęp między telefonem a burgerem
+    margin-left: 5px;  
+  }
+
+  &__phone,
+  &__burger {
     display: block; 
-    
+  }
 }
-}
+
+
