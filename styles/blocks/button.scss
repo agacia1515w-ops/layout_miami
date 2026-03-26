@@ -1,6 +1,6 @@
 .button {
   display: block;
-  margin: 0 auto 48px;  // wycentrowanie przycisku
+  margin: 0 auto 48px; 
   border-radius: 40px;
   background-color: #292929;
   color: white;
@@ -8,8 +8,8 @@
   height: 56px;
   line-height: 56px;
   text-align: center;
-  width: 90%;           // elastyczna szerokość
-  max-width: 280px;     // ograniczenie dla desktopu
+  width: 90%;           
+  max-width: 280px;     
   font-size: 16px;
   font-weight: 700;
   border: 3px solid #292929;
@@ -28,9 +28,9 @@
     background-color: white;
     color: #292929;
     display: block;
-    width: 90%;          // elastyczna szerokość
+    width: 90%;          
     max-width: 280px;
-    margin: 0 auto 48px; // wycentrowanie
+    margin: 0 auto 48px; 
   }
 }
 

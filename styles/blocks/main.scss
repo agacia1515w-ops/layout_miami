@@ -17,6 +17,11 @@
     line-height: 140%;
     text-align: left;
     margin-bottom: 16px;
+    display: block;
+    width: 90%;          
+    max-width: 280px;    
+    margin-left: auto;   
+    margin-right: auto;
 
     &--bold {
       font-weight: 400;
@@ -24,9 +29,11 @@
       font-style: normal;
       line-height: 27px;
       letter-spacing: 0;
-      text-align: left;
-      margin: 40px auto 96px auto; // wycentrowanie i odstępy
-      max-width: 95%;              // elastyczna szerokość
+      display: block;
+      width: 90%;          
+      max-width: 280px;    
+      margin-left: auto;   
+      margin-right: auto;              
     }
   }
 }

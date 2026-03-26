@@ -1,5 +1,16 @@
 .address {
   margin-bottom: 96px;
+  display: block;
+  max-width: 90%;      
+  margin-right: 20px;
+  margin-left: 20px;
+ 
+  
+
+
+
+ 
+  
 
   &__label {
     font-family: Inter, sans-serif;
@@ -8,12 +19,8 @@
     font-size: 14px;
     line-height: 140%;
     letter-spacing: 0;
-    color: #9fadc2;
-    margin-bottom: 8px;
+    color: #9fadc2;  
     margin-left: 20px;
-    max-width: 95%;       // elastyczna szerokość
-    margin-right: auto;
-    margin-left: auto;     // wycentrowanie dla mobile
   }
 
   &__content {
@@ -26,8 +33,8 @@
     color: #3e3e3e;
     margin-bottom: 24px;
     margin-left: 20px;
-    max-width: 95%;
-    margin-right: auto;
-    margin-left: auto;
+  
+   
+   
   }
 }

@@ -1,14 +1,14 @@
 .product {
-  padding-left: 0;           // wycentrowanie przez auto margin
+  padding-left: 0;           
   display: block;
-  max-width: 280px;          // ograniczenie dla desktopu
-  margin: 0 auto;            // wycentrowanie całego produktu
+  max-width: 280px;         
+  margin: 0 auto;            
 
   &__photo {
     display: block;
-    width: 100%;             // elastyczna szerokość
-    max-width: 280px;        // ograniczenie dla desktopu
-    aspect-ratio: 1 / 1;     // kwadratowe zdjęcie
+    width: 100%;             
+    max-width: 280px;        
+    aspect-ratio: 1 / 1;     
     object-fit: cover;
     margin-bottom: 16px;
   }
@@ -41,6 +41,10 @@
     text-align: left;
     color: #292929;
     margin-bottom: 10px;
+
+    &-product{
+     margin-bottom: 96px;
+    }
   }
 }
 
