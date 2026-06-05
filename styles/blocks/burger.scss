@@ -4,7 +4,7 @@
 .burger{
     &::before  {
     content: '';
-    background-image:url(../../Burger.png);
+    background-image:url(../../assets/foto/Burger.png);
     background-size: cover;
     display: inline-block;
     width: 24px;
@@ -15,7 +15,7 @@
     &::after  {
     content: '';
     display: none;
-    background-image:url(../../Burger-hover.png);
+    background-image:url(../../assets/foto/Burger-hover.png);
     background-size: cover;
     width: 24px;
     height: 24px;
