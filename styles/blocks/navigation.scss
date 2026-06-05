@@ -122,14 +122,14 @@
     position: absolute;
     inset: 0;
 
-    background-image: url(../../Burger.png);
+    background-image:url(../../assets/foto/Burger.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
 
   &:hover::before {
-    background-image: url(../../Burger-hover.png);
+    background-image: url(../../assets/foto/Burger-hover.png);
   }
 
 
@@ -142,7 +142,7 @@
   
 
   &:hover::before {
-    background-image: url(../../Burger-hover.png);
+    background-image: url(../../assets/foto/Burger-hover.png);
   }
      
     }
