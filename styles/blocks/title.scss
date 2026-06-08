@@ -10,6 +10,10 @@
   letter-spacing: -1px;
   color: #292929;
   padding-top: 40px;
+  
+     grid-column: span 2;
+ 
+
 
 
   @include for-tablet() {
@@ -32,7 +36,7 @@
       left: 0;
       width: 48px;
       height: 58px;
-      background-image: url('../../assets/foto/Sound waves.png');
+      background-image: url(../../assets/foto/Sound\ waves.png);
       background-repeat: no-repeat;
       background-size: contain;
     }
