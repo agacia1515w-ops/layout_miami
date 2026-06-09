@@ -10,6 +10,7 @@
   position: relative;
   width: 100%;
   margin-bottom: 16px;
+  overflow: hidden;
 }
 
 
@@ -45,5 +46,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
+  transition: transform 0.3s ease;
+}
+.pictures__item:hover .pictures__image {
+  transform: scale(1.08);
+  filter: brightness(1.05);
 }
