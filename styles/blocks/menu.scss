@@ -19,14 +19,14 @@ body:has(.menu:target) {
   overflow-y: auto;
   box-sizing: border-box;
   padding: 28px 20px;
-   overflow-x: hidden;
+  overflow-x: hidden;
 
 .menu:target {
     transform: translateX(0);
   }
 
   @include for-tablet() {
-    padding: 36px 72px;
+    padding:  72px;
   }
 
   @include for-desktop() {
@@ -59,6 +59,7 @@ body:has(.menu:target) {
       }
     }
   }
+
   &__close {
     display: flex;
     align-items: center;
