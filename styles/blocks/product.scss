@@ -42,29 +42,13 @@
   display: block;
   margin: 0 auto 16px;
   object-fit: cover;
+  transition: transform 0.3s ease;
 }
-
-
-.product__name {
-  font-weight: 700;
-  margin-bottom: 8px;
-  text-align: left;
+.product:hover .product__photo {
+  transform: scale(1.05);
 }
-
-.product__role {
-  margin-bottom: 8px;
-  text-align: left;
-}
-
-.product__price {
-  font-weight: 700;
-  text-align: left;
-}
-
-
 .product__name {
   font-family: Inter, sans-serif;
-  font-style: bold;
   font-weight: 700;
   margin-bottom: 8px;
   width: 100%;

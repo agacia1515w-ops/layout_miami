@@ -1,6 +1,12 @@
 
 @use '../utils/mixins.scss' as *;
 
+
+body:has(.menu:target) {
+  overflow: hidden;
+}
+
+
 .menu {
   position: fixed;
   inset: 0;
@@ -13,9 +19,11 @@
   overflow-y: auto;
   box-sizing: border-box;
   padding: 28px 20px;
-   overflow: hidden;
+   overflow-x: hidden;
 
-
+.menu:target {
+    transform: translateX(0);
+  }
 
   @include for-tablet() {
     padding: 36px 72px;
