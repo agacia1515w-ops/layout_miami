@@ -7,13 +7,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
   min-height: 100vh;         
   padding: 24px 20px ; 
   box-sizing: border-box;
-
- 
-
 
   @include grid();
 
@@ -24,19 +20,15 @@
       width: 100%;
       
 
-        @include for-tablet() {
+      @include for-tablet() {
       grid-column: 1 /  8;
       gap: 32px;
-     
-      
-  
      }
 
       @include  for-desktop() {
       grid-column: 1 /  12;
       gap: 32px;
     }
-   
     }
 
     &__title {
@@ -44,29 +36,21 @@
       grid-column: 1 /  6;
       grid-row: 2 / 3;
       
-      
-
     @include for-tablet() {
       grid-column: 1 /  7;
       font-family: Inter,sans-serif;
       font-weight: 800;
       font-style: italic ;
       font-size: 40px;
-      
       letter-spacing: -1.5px;
-       padding: 32px 72px ;
-      
-      
-      
+       padding: 32px 72px ; 
      }
 
       @include for-desktop() {
        grid-column: 1 /  12;
-
-      
        font-size: 48px;
        padding: 32px 120px ;
-       max-width: 520px;
+       max-width: 100%;
        letter-spacing: -0.5px; 
        
     }
