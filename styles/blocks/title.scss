@@ -1,23 +1,16 @@
 @use '../utils/mixins.scss' as *;
 
-
-
 .title {
   font-family: Inter, sans-serif;
   font-weight: 800;
   font-size: 32px;
-
   letter-spacing: -1px;
   color: #292929;
   padding-top: 40px;
   max-width: 500px;
   line-height: 1.1 ;
-  
   grid-column: span 2;
  
-
-
-
   @include for-tablet() {
     font-size: 40px;
     padding-top: 48px;

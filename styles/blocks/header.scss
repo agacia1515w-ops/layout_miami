@@ -1,7 +1,6 @@
 
 @use '../utils/mixins.scss' as *;
 
-
 .header {
   background-image: url(../../assets/foto/image-15.jpg);
   background-repeat: no-repeat;
@@ -23,6 +22,7 @@
       @include for-tablet() {
       grid-column: 1 /  8;
       gap: 32px;
+
      }
 
       @include  for-desktop() {
