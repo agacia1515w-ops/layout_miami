@@ -39,6 +39,8 @@
       align-self: end;
       grid-column: 1 /  6;
       grid-row: 2 / 3;
+      font-style: italic;
+
       
     @include for-tablet() {
       grid-column: 1 /  7;

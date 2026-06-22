@@ -18,15 +18,22 @@
   font-weight: 700;
   border: 3px solid #292929;
   font-family: Inter, sans-serif;
-
+  &:hover{
+    background:white;
+    background-color: white;
+    color: #292929;
+}
+  &:active{
+    background:white;
+    background-color: #111111;
+    color:white;
+}
     @include for-tablet {
     max-width: 392px;
    
   }
     @include for-desktop {
       max-width: 411px;
-     
- 
   
     }
   
@@ -40,13 +47,24 @@
     line-height: 27px;
     letter-spacing: 0;
     text-align: center;
-    background-color: white;
-    color: #292929;
+    background-color: #292929;
+    color: white;
     display: block;
     width: 100%;          
     max-width: 280px;
    margin-bottom: 48px;
    margin-top: 32px;
+
+     &:hover{
+    background:white;
+    background-color: white;
+    color: #292929;
+}
+  &:active{
+    background:white;
+    background-color: #111111;
+    color:white;
+}
   }
   
     @include for-desktop {

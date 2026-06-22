@@ -1,7 +1,6 @@
 
 .address {
   max-width: 320px;        
-   
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -22,6 +21,7 @@
     width: 100%;
     color: #9FADC2;  
     margin-bottom: 8px;
+ 
 
   }
 
@@ -31,12 +31,11 @@
     font-style: normal;
     font-size: 16px;
     line-height: 140%;
-    letter-spacing: 0;
     color: #3e3e3e;
     margin-bottom: 24px;
     transition: color 0.3s ease;
+    text-decoration: none;
+    
   }
-  &__content:hover {
-    color: #1c60c6;
-  }
+
 }
