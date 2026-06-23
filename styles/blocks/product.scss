@@ -28,25 +28,24 @@
     gap: 32px;
   }
 }
-
-
-.product {
-  padding: 0 20px;
-}
-
-
 .product__photo {
   width: 100%;
   max-width: 280px;
   height: auto;
   display: block;
-  margin: 0 auto 16px;
+  margin:0  auto  32px ;
   object-fit: cover;
   transition: transform 0.3s ease;
+
+  @include for-tablet(){
+  margin-bottom:32px;
+}
 }
 .product:hover .product__photo {
   transform: scale(1.05);
 }
+
+
 .product__name {
   font-family: Inter, sans-serif;
   font-weight: 700;
@@ -68,4 +67,5 @@
   margin-bottom: 40px;
   width: 100%;
   text-align: left;
+
 }

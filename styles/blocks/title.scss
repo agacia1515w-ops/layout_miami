@@ -13,12 +13,12 @@
  
   @include for-tablet() {
     font-size: 40px;
-    padding-top: 48px;
+   padding-top: 0;
   }
 
   @include for-desktop() {
     font-size: 48px;
-    padding-top: 56px;
+   
   }
 
   &--decorated {
@@ -63,9 +63,6 @@
 
     @include for-tablet() {
       font-size: 40px;
-      margin-bottom: 40px;
-       background-color: yellow;
-       padding: 72px 0;
     }
     @include for-desktop() {
       font-size: 48px;
@@ -74,16 +71,15 @@
 }
   &-section {
     font-weight: 700;
-    
     font-size: 32px;
     line-height: 100%;
     letter-spacing: -0.5px;
     text-align: center;
     max-width: 500px;
+   
 
     @include for-tablet() {
       font-size: 40px;
-      margin-bottom: 64px;
       text-align: center;
     }
 

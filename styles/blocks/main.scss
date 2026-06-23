@@ -27,6 +27,7 @@ html {
   row-gap: 24px;
 
 
+
   @include for-tablet() {
     grid-template-columns: 1fr 1fr;
     column-gap: 24px;

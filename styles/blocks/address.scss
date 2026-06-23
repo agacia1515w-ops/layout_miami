@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
- 
+  margin-bottom: 72px;
   
 
   &__label {
@@ -35,6 +35,7 @@
     margin-bottom: 24px;
     transition: color 0.3s ease;
     text-decoration: none;
+ 
     
   }
 

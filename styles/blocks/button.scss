@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  margin: 0 0 48px; 
+  margin: 40px auto 96px; 
   border-radius: 40px;
   background-color: #292929;
   color: white;
@@ -15,6 +15,7 @@
   width: 100%;           
   max-width: 280px;  
   font-size: 16px;
+
   font-weight: 700;
   border: 3px solid #292929;
   font-family: Inter, sans-serif;
@@ -48,12 +49,10 @@
     letter-spacing: 0;
     text-align: center;
     background-color: #292929;
-    color: white;
     display: block;
     width: 100%;          
     max-width: 280px;
-   margin-bottom: 48px;
-   margin-top: 32px;
+    margin: 32px 0 48px;
 
      &:hover{
     background:white;
