@@ -25,12 +25,12 @@ body:has(.menu:target) {
 
   
   @include for-tablet() {
-  padding: 72px;
+ padding: 36px 72px 0;
 
   }
 
   @include for-desktop() {
-    padding: 56px 120px 0;
+    padding:36px 120px 0;
   }
   &:target {
     transform: translateX(0);

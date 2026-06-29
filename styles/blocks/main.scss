@@ -14,6 +14,20 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+  padding-inline: 20px;
+
+  @include for-tablet() {
+    padding-inline: 72px;
+  }
+
+  @include for-desktop() {
+    padding-inline: 120px;
+  }
+}
 
 .main {
   font-weight: 400;
