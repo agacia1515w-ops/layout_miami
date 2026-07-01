@@ -1,18 +1,18 @@
 @use '../utils/mixins.scss' as *;
 
 .section {
-    padding: 40px 20px;
+    
     display: block;
 
 
   @include for-tablet() {
-  padding: 76px 72px;
+ 
     gap: 20px;
     justify-self: center;
   }
 
   @include for-desktop() {
-   padding: 76px 120px;
+   
     gap: 24px;
   }
 }
@@ -37,6 +37,8 @@
     margin-bottom: 64px;
     text-align: center;
     justify-self: center;
+   
+    padding-top: 120px;
   }
 
   @include for-desktop() {
@@ -62,7 +64,7 @@
   @include for-tablet() {
     max-width: 392px;
     margin-top: 64px;
-    margin-bottom: 0;
+    margin-bottom: 120px;
     
   }
 

@@ -30,7 +30,7 @@
     color:white;
 }
     @include for-tablet {
-    max-width: 392px;
+    max-width: 100%;
    
   }
     @include for-desktop {
@@ -64,6 +64,10 @@
     background-color: #111111;
     color:white;
 }
+  }
+      @include for-tablet {
+    max-width: 100%;
+   
   }
   
     @include for-desktop {

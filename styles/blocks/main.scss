@@ -4,14 +4,9 @@
 body {
   font-family: Inter, sans-serif;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 html {
-  margin: 0;
-  padding: 0;
+  
   box-sizing: border-box;
 }
 .container {
@@ -25,7 +20,7 @@ html {
   }
 
   @include for-desktop() {
-    padding-inline: 120px;
+   
   }
 }
 
@@ -36,7 +31,7 @@ html {
   color: #292929;
   align-items: start;
   display: grid;
-  padding: 20px;
+  
   grid-template-columns: 1fr;
   row-gap: 24px;
 
@@ -45,7 +40,7 @@ html {
   @include for-tablet() {
     grid-template-columns: 1fr 1fr;
     column-gap: 24px;
-    padding: 72px;
+   
    
     
   }
@@ -54,7 +49,7 @@ html {
   @include for-desktop() {
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
-    padding:120px;
+ 
   }
 
   &__title {

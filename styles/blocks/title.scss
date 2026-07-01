@@ -13,7 +13,7 @@
  
   @include for-tablet() {
     font-size: 40px;
-   padding-top: 0;
+   margin-bottom: 64px;
   }
 
   @include for-desktop() {
@@ -41,14 +41,14 @@
         top: -100px;
         width: 64px;
         height: 78px;
-        left: 72px;
+        
       }
       @include for-desktop() {
         &::before {
           top: -100px;
           width: 64px;
           height: 78px;
-          left: 120px;
+          
         
     }
   }
