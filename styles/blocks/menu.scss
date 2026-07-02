@@ -30,7 +30,7 @@ body:has(.menu:target) {
   }
 
   @include for-desktop() {
-    padding:36px 120px 0;
+    
   }
   &:target {
     transform: translateX(0);

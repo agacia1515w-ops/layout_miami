@@ -1,4 +1,11 @@
 
+@mixin for-mobile-large() {
+  @media (min-width: 480px) and (max-width: 767px) {
+    @content;
+  }
+}
+
+
 @mixin for-tablet() {
   @media (min-width: 768px) {
     @content;

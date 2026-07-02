@@ -11,8 +11,7 @@ html {
 }
 .container {
   width: 100%;
-  max-width: 1020px;
-  margin: 0 auto;
+  
   padding-inline: 20px;
 
   @include for-tablet() {
@@ -31,6 +30,8 @@ html {
   color: #292929;
   align-items: start;
   display: grid;
+    max-width: 1020px;
+  margin: 0 auto;
   
   grid-template-columns: 1fr;
   row-gap: 24px;
@@ -39,16 +40,14 @@ html {
 
   @include for-tablet() {
     grid-template-columns: 1fr 1fr;
-    column-gap: 24px;
+
    
-   
-    
   }
 
 
   @include for-desktop() {
     grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
+    
  
   }
 
@@ -67,11 +66,11 @@ html {
   }
 
   &__content {
-    grid-column: 1 / -1;
+width: 100%;
 
     @include for-tablet() {
       grid-column: 2 / 3;
-      align-items: start;
+      width: 100%;
     }
 
     @include for-desktop() {
