@@ -11,7 +11,6 @@ html {
 }
 .container {
   width: 100%;
-  
   padding-inline: 20px;
 
   @include for-tablet() {
@@ -30,8 +29,8 @@ html {
   color: #292929;
   align-items: start;
   display: grid;
-    max-width: 1020px;
-  margin: 0 auto;
+  max-width: 1020px;
+  
   
   grid-template-columns: 1fr;
   row-gap: 24px;
@@ -53,6 +52,8 @@ html {
 
   &__title {
     grid-column: 1 / -1; 
+    text-align: left;  
+    justify-self: start;
 
     @include for-tablet() {
       grid-column: 1 / 2;
@@ -62,6 +63,7 @@ html {
 
     @include for-desktop() {
       grid-column: 1 / 2;
+  
     }
   }
 

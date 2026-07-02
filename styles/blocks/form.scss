@@ -18,12 +18,16 @@
     box-sizing: border-box;
     margin-bottom: 16px;
     display: block;
-    
+   
     @include for-tablet() {
       max-width: 100%;
+ 
+
+ 
 }
       @include for-desktop() {
       max-width: 411px;
+  
     }
  
     
