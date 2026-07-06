@@ -13,6 +13,12 @@ html {
   width: 100%;
   padding-inline: 20px;
 
+  @include for-mobile-large() {
+   
+    justify-content: center;
+    margin: 0 auto;
+  }
+
   @include for-tablet() {
     padding-inline: 72px;
   }
@@ -30,12 +36,13 @@ html {
   align-items: start;
   display: grid;
   max-width: 1020px;
-  
-  
-  grid-template-columns: 1fr;
+  justify-content: center;
   row-gap: 24px;
 
-
+  @include for-mobile-large() {
+  
+    
+  }
 
   @include for-tablet() {
     grid-template-columns: 1fr 1fr;
@@ -53,7 +60,13 @@ html {
   &__title {
     grid-column: 1 / -1; 
     text-align: left;  
-    justify-self: start;
+    max-width: 100%;
+
+    @include for-mobile-large() {
+    width: 100%;
+    max-width: 480px;
+    
+  }
 
     @include for-tablet() {
       grid-column: 1 / 2;
@@ -69,6 +82,11 @@ html {
 
   &__content {
 width: 100%;
+  @include for-mobile-large() {
+    width: 100%;
+    max-width: 480px;
+  }
+
 
     @include for-tablet() {
       grid-column: 2 / 3;

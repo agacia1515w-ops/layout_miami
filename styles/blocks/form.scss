@@ -6,6 +6,7 @@
  width: 100%;
 
 
+
   &__input {
     border-radius: 40px;
     background-color: #f8f8fa;
@@ -18,7 +19,7 @@
     box-sizing: border-box;
     margin-bottom: 16px;
     display: block;
-   
+  
     @include for-tablet() {
       max-width: 100%;
  
