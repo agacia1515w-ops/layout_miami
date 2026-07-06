@@ -64,6 +64,18 @@
     background-color: #111111;
     color:white;
 }
+
+    @include for-mobile-large() {
+   
+    justify-content: center;
+    margin: 32px auto 48px;
+    min-width: 360px;
+    
+  }
+
+  
+    @include for-tablet() {
+      max-width: 100%;
   }
       @include for-tablet {
     max-width: 100%;
@@ -76,4 +88,4 @@
     
   } 
 }
-
+}
