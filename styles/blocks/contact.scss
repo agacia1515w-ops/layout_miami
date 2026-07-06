@@ -20,7 +20,7 @@
   flex-direction: column;
   
   padding: 20px;
-  
+ 
     @include for-mobile-large() {
       margin: 0 auto;
     }
@@ -44,7 +44,7 @@
         }
 
     @include for-desktop(){
-        grid-column: span -4 / -1;
+        grid-column:  -4 / -1;
     }
     }
 }
