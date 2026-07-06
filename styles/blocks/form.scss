@@ -3,7 +3,7 @@
 .form {
   display: flex;
   flex-direction: column;
- width: 100%;
+  width: 100%;
 
 
 
@@ -21,10 +21,9 @@
     display: block;
 
       @include for-mobile-large() {
-   
-    justify-content: center;
     margin: 16px auto 0;
     min-width: 360px;
+    width: 100%;
     
   }
 

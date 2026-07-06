@@ -4,8 +4,8 @@
 .contact {
 
     @include grid ();
-
     gap: 24px;
+
     @include for-tablet() {
         
     }
@@ -14,11 +14,20 @@
     }
 
  &__form {
-    grid-column: span 2;
+  grid-column: span 3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  padding: 20px;
+  
+    @include for-mobile-large() {
+      margin: 0 auto;
+    }
 
-        @include for-tablet() {
-            grid-column: span 3;
-            font-size: 16px;
+    @include for-tablet() {
+        grid-column: span 3;
+        font-size: 16px;
         }
 
     @include for-desktop(){
@@ -30,11 +39,11 @@
     &__address {
     grid-column: span 2;
 
-        @include for-tablet() {
-            grid-column: span 3;
+    @include for-tablet() {
+        grid-column: span 3;
         }
 
-      @include for-desktop(){
+    @include for-desktop(){
         grid-column: span -4 / -1;
     }
     }
