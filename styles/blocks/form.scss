@@ -19,6 +19,15 @@
     box-sizing: border-box;
     margin-bottom: 16px;
     display: block;
+
+      @include for-mobile-large() {
+   
+    justify-content: center;
+    margin: 16px auto 0;
+    min-width: 360px;
+    
+  }
+
   
     @include for-tablet() {
       max-width: 100%;
@@ -55,6 +64,15 @@
     box-sizing: border-box;
     margin-bottom: 32px;
     display: block;
+
+
+     @include for-mobile-large() {
+   
+    justify-content: center;
+    margin: 16px  auto 0;
+    max-width: 360px;
+  }
+
 
 
 @include for-tablet() {
