@@ -76,6 +76,7 @@ html {
 
     @include for-desktop() {
       grid-column: 1 / 2;
+      
   
     }
   }
@@ -104,6 +105,15 @@ width: 100%;
     font-weight: 700;
     margin-bottom: 16px;
     display: block;
+    
+    max-width: 800px;
+    width: 100%;
+
+    @include for-desktop() {
+      font-size: 16px;
+      line-height: 27px;
+      
+    }
 
     &--item {
       margin-bottom: 40px;
