@@ -1,5 +1,7 @@
 const form = document.querySelector('.form');
 
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-});
+if (form) {
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+  });
+}
