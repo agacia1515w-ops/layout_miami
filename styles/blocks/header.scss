@@ -6,7 +6,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
   min-height: 100vh;
   box-sizing: border-box;
 }
@@ -17,13 +16,14 @@
   min-height: 100vh;
   padding: 28px 20px;
   grid-template-rows: auto 1fr;
+ 
+ 
 }
 
 
 .navigation {
   grid-column: 1 / -1;
   grid-row: 1;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,7 +44,6 @@
   grid-column: 1 /-1;
   grid-row:2;
   align-self: end;
-
   font-style: italic;
   font-weight: 800;
   font-size: 32px;
